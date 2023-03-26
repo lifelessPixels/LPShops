@@ -1,0 +1,35 @@
+name: LPShops
+main: pl.lifelesspixels.lpshops.LPShops
+version: 0.1
+api-version: 1.19
+depend: [LPUtilities, LPEconomy, LPChestGUI]
+commands:
+  createshop:
+    description: Used to create new shop
+  removeshop:
+    description: Used to remove existing shops
+  listshops:
+    description: Used to list all existing shops
+  editshop:
+    description: Used to open GUI editor for specified shop
+  setshopdisplayname:
+    description: Used to change display name of specified shop
+  saveshops:
+    description: Used to save all existing shops to the backing file
+  openshop:
+    description: Used to open specified shop for user
+permissions:
+  lpshops.command.createshop:
+    default: op
+  lpshops.command.removeshop:
+    default: op
+  lpshops.command.listshops:
+    default: op
+  lpshops.command.editshop:
+    default: op
+  lpshops.command.setshopdisplayname:
+    default: op
+  lpshops.command.saveshops:
+    default: op
+  lpshops.command.openshop:
+    default: op
